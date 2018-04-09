@@ -169,8 +169,8 @@ function rotateImage( e ) {
   var mouseAngle = Math.atan2( mouseYFromCentre, mouseXFromCentre );
 
   // Calculate the new rotation angle for the image
-  //var rotateAngle = mouseAngle - mouseStartAngle + imageStartAngle;
-  var rotateAngle = 0;
+  var rotateAngle = mouseAngle - mouseStartAngle + imageStartAngle;
+  //var rotateAngle = 0;
   // Rotate the image to the new angle, and store the new angle
   $(imageBeingRotated).css('transform','rotate(' + rotateAngle + 'rad)');
   $(imageBeingRotated).css('-moz-transform','rotate(' + rotateAngle + 'rad)');
