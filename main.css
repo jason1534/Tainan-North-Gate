@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url(images/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: Arial Unicode MS, sans-serif;
+}
+
+#years{
+  position: absolute;
+  top:10%;
+  left:32.5%;
+  display: flex;
+}
+
+#lamp{
+  position:absolute;
+  right:12%;
+  top:33%;
+}
+
+#wick{
+  position:absolute;
+  right:15.5%;
+  top:63.5%;
+  z-index: 4;
+}
+
+#lighttable img{
+/*  box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.9);*/
+}
+
+#lighttable img:hover {
+  cursor: pointer;
+}
+
+#inside{
+  position:absolute;
+  right:17.8%;
+  top:44.5%;
+  z-index: 3;
+}
+#centre{
+  position:absolute;
+  right:14%;
+  top:37%;
+  z-index: 2;
+}
+#outside{
+  position:absolute;
+  right:10.5%;
+  top:30%;
+  z-index: 1;
+}
+
+#description {
+  position:absolute;
+  bottom:5%;
+  left:5%;
+  padding: 10px 10px 5px 10px;
+  background: transparent;
+  color: #fff;
+  width: 28em;
+  margin: 0 auto -5px auto;
+  text-align: center;
+}
+
+#description p{
+  font-size: 16px;
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+
+#lighton{
+  position: absolute;
+  z-index: 5;
+}
